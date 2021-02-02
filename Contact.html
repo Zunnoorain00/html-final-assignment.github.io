@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        header{
+            background: linear-gradient(to right, #61A2D8, #008afc);
+            height: 100px;
+            width: 100%;
+        }
+        img{
+            width: 180px;
+            margin-left: 50px;
+        }
+        #Navigation_Bar{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin-left: 50px;
+            position: relative;
+            bottom: 40px;
+        }
+        legend{
+            font-size: 25px;
+        }
+        form{
+            font-size: 20px;
+        }
+        #iframe{
+            text-align: center;
+        }
+        iframe{
+            height: 300px;
+            width: 90%;
+            border: none;
+            margin: 30px 0;
+        }
+        footer{
+            background: linear-gradient(to right, #61A2D8, #008afc);
+            width: 100%;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Home.html"><img src="Logo.png" alt="LOGO"></a>
+        <a href="Home.html" id="Navigation_Bar">HOME</a>
+        <a href="About.html" id="Navigation_Bar">ABOUT</a>
+        <a href="Portfolio.html" id="Navigation_Bar">PORTFOLIO</a>
+        <a href="Contact.html" id="Navigation_Bar">CONTACT</a>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:</label>
+            <input type="text" size="40"> <br><br>
+            <label>Email:</label>
+            <input type="email" size="40">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us?</label>
+            <select>
+                <option value="Google">Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Yahoo">Yahoo</option>
+                <option value="Instagram">Instagram</option>
+            </select> <br><br>
+            
+            <label>Would you visit again?</label> <br>
+            <input type="radio">Yes
+            <input type="radio">No
+            <input type="radio">Maybe <br><br>
+            
+            <label>Comments:</label> <br>
+            <textarea cols="40" rows="5"></textarea> <br><br>
+            
+            <input type="checkbox" checked>Sign me up for email updates <br><br>
+            
+            <input type="button" value="Submit Review">
+        </fieldset>
+    </form>
+
+    <div id="iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435518.68178391113!2d74.0541891863328!3d31.483220874943818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1611314606008!5m2!1sen!2s"></iframe>
+    </div>
+
+    <footer>
+        Copyright &#169 2019. All rights reserved.
+    </footer>
+</body>
+</html>
